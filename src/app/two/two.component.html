@@ -1,0 +1,28 @@
+<a routerLink="/one" class="fixed-link">Next page</a>
+
+
+<!-- Autoplay enabled: Animation doesn't work, view appear instantly -->
+<!-- <div>
+  <video
+  width="100%"
+  height="100%"
+  autoplay
+  muted
+  (canplay)="video.play()"
+  (loadedmetadata)="video.muted = true"
+  #video
+>
+  <source src="assets/small.mp4" type="video/mp4" />
+</video>
+</div> -->
+
+
+<!-- Autoplay disabled: Animation works -->
+<div>
+  <video
+  width="100%"
+  height="100%"
+>
+  <source src="assets/small.mp4" type="video/mp4" />
+</video>
+</div>
